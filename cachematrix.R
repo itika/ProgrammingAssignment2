@@ -5,7 +5,10 @@
 
 ##makeCachematrix is accepting a matrix and 
 ##creating a list of functions associated with it
-
+## get to return the matrix
+## getinverse() to return the value of variable inverse
+## setinverse() to set the value of varriable inverse
+## inverse is a variable which will store the inverse of the said matrix.
 
 
 
@@ -33,6 +36,12 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+## FOLLOWING function accepts output of the above as argument. 
+##getinverse() function created by me is used to get the inverse, 
+##if inverse exists, a matrix is returned, else 
+##null is returned, in which case, this function 
+## calculates inverse using solve and sets "inverse" variable of the argument
+## using setinverse function
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
